@@ -1,5 +1,4 @@
 # Web.DeathGoose
-<br>
 <br>Ссылки:
 <br>  Colab Google: 
 <br>
