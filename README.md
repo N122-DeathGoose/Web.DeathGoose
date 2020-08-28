@@ -1,6 +1,6 @@
 # Web.DeathGoose
 <br>Ссылки:
-<br>  Colab Google: 
+<br>  Colab Google: https://colab.research.google.com/drive/1KICsu78IsVTYlFEdfs_aH5rQzc0osohF?usp=sharing
 <br>
 <br>Использование:
 <br>	Colab Google:
